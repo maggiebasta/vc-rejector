@@ -1,0 +1,7 @@
+bs4
+flask
+flask_cors
+flask_httpauth
+pandas
+openai
+openpyxl

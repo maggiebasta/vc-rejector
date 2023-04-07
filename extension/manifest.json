@@ -1,0 +1,15 @@
+{
+    "name": "Reject VC Mailgen",
+    "description": "Write a reply to a VC using GPT-4",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["https://mail.google.com/*"],
+    "content_scripts": [{
+      "matches": ["https://mail.google.com/*"],
+      "js": ["button.js"]
+    }],
+    "web_accessible_resources": [{
+      "matches": ["https://mail.google.com/*"],
+      "resources": ["examples.json", "prompt.txt"]
+    }]
+  }
