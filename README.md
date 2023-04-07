@@ -12,6 +12,8 @@ pip install -e .
 pip install -r requirements.txt
 ```
 
+Make sure you have GPT4 API access and that you have OPEN_AI_KEY set in your system enviroment variables. 
+
 **Upload the Chrome extension:**
 - In Chrome, go to settings -> Extensions
 - Toggle developer mode to ON in the upper right corner
